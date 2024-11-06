@@ -1,5 +1,5 @@
 {
-	"name": "sample-mc-addon",
+	"name": "greed-addon",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
