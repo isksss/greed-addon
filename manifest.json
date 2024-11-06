@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "ようこそアドオン",
+		"description": "ワールド入室時にメッセージを送信する.",
+		"uuid": "97F28BC5-2F25-65FC-41EA-896A3CC629C3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 50]
+	},
+	"modules": [
+		{
+			"description": "Script API",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e50d3cc5-73e0-5e87-20b0-5829c1fa36e3",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}

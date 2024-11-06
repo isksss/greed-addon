@@ -1,0 +1,19 @@
+{
+	"name": "sample-mc-addon",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"check": "npx @biomejs/biome check --write",
+		"build": "npx tsc"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@minecraft/server": "^1.15.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"typescript": "^5.6.3"
+	}
+}
