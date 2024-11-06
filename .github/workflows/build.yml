@@ -18,4 +18,5 @@ jobs:
       - name: build
         run: |
           mise install
+          npm install
           npm run build
